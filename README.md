@@ -24,7 +24,8 @@ docker run --rm -v $(pwd):/src emscripten/emsdk:4.0.4-arm64 emcc src/hello.c -s 
 Note: the hello.js file is not needed and can be deleted. However, you need to specify a .js file on the output or the compiler does not work correctly.
 
 # Useful websites
-- [emscripten/emsdk docker hub](https://hub.docker.com/r/emscripten/emsdk/tags)
+- [emscripten/emsdk docker hub](https://hub.docker.com/r/emscripten/emsdk)
+- [emscripten code optimizing flags](https://emscripten.org/docs/optimizing/Optimizing-Code.html)
 
 
 # Next steps
